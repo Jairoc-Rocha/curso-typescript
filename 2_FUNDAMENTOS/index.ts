@@ -27,4 +27,13 @@ let a:boolean = false;
 console.log(a);
 console.log(typeof a);
 
+//4 - inference e annotation
+let ann:string = "annotation";
+let inf = "inference";
+
+//ann = 1;
+//inf = 1;
+console.log(ann);
+console.log(inf);
+
 

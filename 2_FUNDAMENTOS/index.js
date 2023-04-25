@@ -18,3 +18,10 @@ console.log(typeof fullName);
 var a = false;
 console.log(a);
 console.log(typeof a);
+//4 - inference e annotation
+var ann = "annotation";
+var inf = "inference";
+//ann = 1;
+//inf = 1;
+console.log(ann);
+console.log(inf);
