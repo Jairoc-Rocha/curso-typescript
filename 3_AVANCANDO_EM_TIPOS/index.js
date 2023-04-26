@@ -12,3 +12,26 @@ console.log(nums.length);
 // 3 - any
 let arr1 = [1, "teste", true, { nome: "Matheus" }];
 console.log(arr1[2]);
+// 4 - parâmetros de funções tipados
+function soma(a, b) {
+    console.log(a + b);
+}
+soma(4, 5);
+// 5 - Retorno de funções tipado
+function greeting(name) {
+    return `Olá ${name}`;
+}
+console.log(greeting("Matheus"));
+//console.log(greeting(5));
+// 6 - Funções anônimas
+setTimeout(function () {
+    let sallary = 5000;
+    //console.log(sallary);
+}, 2000);
+// 7 - Tipos de objetos
+function passCoordinates(coord) {
+    console.log("x coordinates: " + coord.x);
+    console.log("y coordinates: " + coord.y);
+}
+const objCoordinates = { x: 329, y: 84.2 };
+passCoordinates(objCoordinates);
